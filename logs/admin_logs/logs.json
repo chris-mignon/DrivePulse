@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "timestamp": "2024-07-11 02:35:51",
+        "who": "admin",
+        "activity": "Logged in"
+    },
+    {
+        "timestamp": "2024-07-11 02:35:13",
+        "who": "admin",
+        "activity": "Logged out"
+    },
+    {
+        "timestamp": "2024-07-11 02:31:56",
+        "who": "admin",
+        "activity": "Logged in"
+    }
+]

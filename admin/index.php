@@ -399,7 +399,7 @@ if (isset($_GET['search-query'])) {
                             if ($result->num_rows > 0) {
                                 $row = $result->fetch_assoc();
                                 $totalPaidAmount = $row["total_paidamount"];
-                                echo "₹" . number_format($totalPaidAmount, 2);
+                                echo "$" . number_format(floatval($totalPaidAmount), 2);
                             } else {
                                 echo "No payments recorded for this month.";
                             }
